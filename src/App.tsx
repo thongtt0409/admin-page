@@ -4,7 +4,8 @@ import { Content, Header } from 'antd/es/layout/layout';
 import { Menu, Layout, Card, Typography } from 'antd';
 import { menuItems } from './constants/Siders';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import React, { useState } from 'react';
+import { useState } from 'react';
+
 function App() {
   const [collpased, setCollpased] = useState<boolean>(false);
 
